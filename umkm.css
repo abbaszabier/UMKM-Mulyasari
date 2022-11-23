@@ -1,0 +1,230 @@
+/* ABAIKAN INI */
+.footer-clean {
+  padding: 50px 0;
+  background-color: #fff;
+  color: #4b4c4d;
+}
+
+.footer-clean h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.footer-clean ul {
+  padding: 0;
+  list-style: none;
+  line-height: 1.6;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.footer-clean ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footer-clean ul a:hover {
+  opacity: 1;
+}
+
+.footer-clean .item.social {
+  text-align: right;
+}
+
+@media (max-width: 767px) {
+  .footer-clean .item {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-clean .item.social {
+    text-align: center;
+  }
+}
+
+.footer-clean .item.social > a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin-left: 10px;
+  margin-top: 22px;
+  color: inherit;
+  opacity: 0.75;
+}
+
+.footer-clean .item.social > a:hover {
+  opacity: 0.9;
+}
+
+@media (max-width: 991px) {
+  .footer-clean .item.social > a {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer-clean .item.social > a {
+    margin-top: 10px;
+  }
+}
+
+.footer-clean .copyright {
+  margin-top: 14px;
+  margin-bottom: 0;
+  font-size: 13px;
+  opacity: 0.6;
+}
+/* ABAIKAN INI */
+
+/* Mulai Navbar */
+.container-fluid {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.navbar {
+  background-color: #000;
+}
+.navbar-brand {
+  font-family: Montserrat;
+  font-weight: 800;
+}
+.nav-link {
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-family: poppins;
+  font-weight: 400;
+  color: white;
+}
+/* Akhir Navbar */
+
+/* Mulai Hero */
+.header .row .col-lg img {
+  max-width: 100%;
+  height: auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  object-fit: cover;
+  border: 3px solid #ccc;
+}
+.header {
+  margin-bottom: -50px;
+  overflow: hidden;
+}
+.header .row .col-lg h3 {
+  margin-top: 10px;
+}
+.carousel-item {
+  height: 560px;
+  background: #000;
+  color: white;
+  position: relative;
+}
+.carousel-inner .carousel-item .container-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-bottom: 220px;
+  text-align: center;
+}
+.carousel-inner .carousel-item .container-text h1 {
+  font-size: 30px;
+}
+
+.carousel-inner .carousel-item .container-text p {
+  margin-top: 20px;
+}
+.overlay-image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.4;
+}
+/* Akhir Hero */
+
+/* Mulai Tentang */
+.card {
+  margin-top: 80px;
+}
+/* Akhir Tentang */
+
+/* Mulai Produk */
+.container .row .col h2 {
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+/* Akhir Produk */
+
+@media (min-width: 992px) {
+  /* Mulai Navbar */
+  #mainNav {
+    box-shadow: none;
+    background-color: transparent;
+  }
+  #mainNav .navbar-brand {
+    color: #fff;
+  }
+  #mainNav .navbar-brand:hover {
+    color: #fff;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link {
+    color: rgba(255, 255, 255, 0.7);
+    padding: 0 1rem;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: #fff;
+  }
+  #mainNav .navbar-nav .nav-item:last-child .nav-link {
+    padding-right: 0;
+  }
+  #mainNav.navbar-shrink {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    color: #212529;
+  }
+  #mainNav.navbar-shrink .navbar-brand:hover {
+    color: #198754;
+  }
+  #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
+    color: #212529;
+  }
+  #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
+    color: #198754;
+  }
+
+  .navbar {
+    background-color: transparent;
+  }
+  /* Akhir Navbar */
+
+  /* Mulai Hero */
+  .carousel-item {
+    height: 660px;
+  }
+  .carousel-inner .carousel-item .container-text h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 65px;
+  }
+  .carousel-inner .carousel-item .container-text a {
+    margin-top: 120px;
+  }
+  /* Akhir Hero */
+}
